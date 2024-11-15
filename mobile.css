@@ -2,6 +2,11 @@
 
 /* config mobile abaixo de 580px */
 
+body#corpo {
+  font-size: 1em;
+  background: linear-gradient(to top, #4d322c, #69433c, #8e5d52);
+}
+
 header.cabecalho {
   display: flex;
   flex-flow: row nowrap;
