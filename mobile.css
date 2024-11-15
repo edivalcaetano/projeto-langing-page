@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+/* config mobile abaixo de 580px */
+
+header.cabecalho {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  column-gap: 30px;
+}
+
+nav.cabecalho-menu {
+  display: flex;
+  flex-flow: column nowrap;
+  text-align: center;
+  gap: 5px;
+
+}
+
+  section.conteudo-principal {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+  }
+
+  h2.conteudo-principal-escrito-subtitulo {
+    font-size: 2em;
+  }
+
+  .conteudo-principal-imagem {
+    order: -1;
+    width: 215px;
+  }
+
+  .conteudo-principal-escrito-botao {
+    display: block;
+    margin: 0 auto;
+  }
+
+  section.conteudo-secundario {
+    padding: 0px 10px;
+    text-align: center;
+  }
